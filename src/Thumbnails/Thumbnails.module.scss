@@ -1,0 +1,30 @@
+@import "../Styles/shared";
+
+$thumbnailSize: 400px;
+$thumbnailMargin: 10px;
+
+.section {
+  @include gutters;
+}
+
+.sectionTitle {
+  
+}
+
+.thumbnails {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  margin: -$thumbnailMargin;
+}
+
+.thumbnail {
+  width: $thumbnailSize - 2*$thumbnailMargin;
+  margin: $thumbnailMargin;
+  flex-grow: 1;
+}
+
+.thumbnailImage {
+  width: 100%;
+}

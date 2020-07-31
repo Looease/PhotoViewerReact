@@ -1,0 +1,13 @@
+$maxWidth: 1200px;
+$gutterWidth: 20px;
+
+@mixin gutters() {
+  margin-left: 20px;
+  margin-right: 20px;
+  
+  @media (min-width: $maxWidth + 2*$gutterWidth) {
+    max-width: $maxWidth;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

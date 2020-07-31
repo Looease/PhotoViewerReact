@@ -1,0 +1,9 @@
+@import "../Styles/shared";
+
+.section {
+  @include gutters;
+}
+
+.image {
+  width: 100%;
+}

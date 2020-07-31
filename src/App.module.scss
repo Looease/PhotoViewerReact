@@ -1,0 +1,5 @@
+@import "Styles/shared";
+
+.title {
+  @include gutters;
+}
